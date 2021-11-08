@@ -2,10 +2,19 @@
 import { MovieCard } from '../components/MovieCard';
 import '../styles/content.scss';
 
+import{MovieProps, GenreResponseProps} from '../App'
 
 
 
-export function Content({selectedGenre, movies}) {
+
+
+interface ContentProps {
+  selectedGenre: GenreResponseProps;
+  movies: MovieProps[];  
+}
+
+
+export function Content({selectedGenre, movies}: ContentProps) {
   // Complete aqui
  
 

@@ -9,13 +9,13 @@ import './styles/global.scss';
 
 
 
-interface GenreResponseProps {
+export interface GenreResponseProps {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
   title: string;
 }
 
-interface MovieProps {
+export interface MovieProps {
   imdbID: string;
   Title: string;
   Poster: string;
